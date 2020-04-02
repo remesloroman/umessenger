@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/common_google_signin_btn_text_light_focused">
+    <TextView
+        android:gravity="left|center"
+        android:text="BACK"
+        android:textSize="23sp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tools:ignore="RtlHardcoded,RtlSymmetry"
+        android:textColor="@color/cardview_light_background"
+        android:onClick="backBtn"/>
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/user"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:id="@+id/usernameL"
+        android:text="Username"
+        android:textSize="35sp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
